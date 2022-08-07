@@ -39,17 +39,14 @@ button{
    font-size: 15px;
    cursor: pointer;
 }
-body
-{
-    margin: 0%;
-    padding: 0%;
-}
+
 
 .hero-section2
 {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     height:700px;
+
     background-position: right;
 }
 
@@ -75,10 +72,7 @@ body
     text-align: justify;
     padding: 0%;
 }
-body{
-    margin: 0%;
-    padding: 0%;
-}
+
 .heading3{
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
@@ -138,4 +132,30 @@ footer
     color: tomato;
     font-size:20px;
     margin: 3% 0%;
+}
+
+@media only screen and (max-width:667px){
+    body{
+        padding: 0px 10px;
+    }
+    .half-width{
+        padding: 0px;
+        width:100%;
+        
+    }
+    .half-width2{
+        padding: 0px;
+        width:100%;
+       
+    }
+    .halfwidth4{
+        width: 100%;
+        margin: 15px 0px;
+    }
+    footer{
+        clear: both;
+    }
+    @media only screen and (max-width:900px){
+
+    }
 }
